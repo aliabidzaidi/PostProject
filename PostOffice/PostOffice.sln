@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{23B8D253-6519-4578-B730-18C80FDC3492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{0F9A4B7E-CD8F-40FC-B00B-CAB7EE44F538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{A2FCEB22-E273-4953-A004-B54870F90519}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B8D253-6519-4578-B730-18C80FDC3492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B8D253-6519-4578-B730-18C80FDC3492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B8D253-6519-4578-B730-18C80FDC3492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B8D253-6519-4578-B730-18C80FDC3492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9A4B7E-CD8F-40FC-B00B-CAB7EE44F538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A4B7E-CD8F-40FC-B00B-CAB7EE44F538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A4B7E-CD8F-40FC-B00B-CAB7EE44F538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9A4B7E-CD8F-40FC-B00B-CAB7EE44F538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FCEB22-E273-4953-A004-B54870F90519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FCEB22-E273-4953-A004-B54870F90519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FCEB22-E273-4953-A004-B54870F90519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FCEB22-E273-4953-A004-B54870F90519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
